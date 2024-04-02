@@ -20,7 +20,7 @@ struct Mahasiswa
 int main()
 {
     Mahasiswa mhs [5];
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 5; i++) {
         cout << "Data ke-" << (i + 1) << ":" << endl;
         cout << "Nomor Mahasiswa : ";
         getline(cin, mhs[i].nim);
